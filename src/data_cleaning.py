@@ -255,7 +255,6 @@ def clean_dataset(data: List[Dict[str, Any]], vocab_dir: Path) -> tuple:
     Returns:
         Tuple of (cleaned_data, vocabularies_dict)
     """
-    import pandas as pd
     
     # Collect all unique domains
     all_domains = []
