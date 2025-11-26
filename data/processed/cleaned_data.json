@@ -1,0 +1,465 @@
+[
+  {
+    "name": "Khyathi Komalan",
+    "age": 19,
+    "education": "Sophomore at Caltech, majoring in Mathematics",
+    "location": "India/USA",
+    "project_name": "Category Theory Research",
+    "project_description": "Research applying category theory to domains ranging from quantum physics to social relationships.",
+    "domains": [
+      "mathematics",
+      "category theory",
+      "theoretical physics",
+      "complex systems",
+      "social modeling"
+    ],
+    "category": "research",
+    "funding_type": "career development",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Khyathi Komalan. works on Category Theory Research. : Research applying category theory to domains ranging from quantum physics to social relationships.. Domains: mathematics, category theory, theoretical physics, complex systems, social modeling. Category: research.",
+    "domains_normalized": [
+      "mathematics",
+      "physics",
+      "complex systems",
+      "social modeling"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "research",
+    "cluster_kmeans": 4
+  },
+  {
+    "name": "Soumil Nema",
+    "age": null,
+    "education": "Cofounder, NeoVes",
+    "location": "India",
+    "project_name": "Stem Cell Therapies for Neurological Disorders",
+    "project_description": "Developing stem cell therapies aimed at treating stroke and neuropathy.",
+    "domains": [
+      "biotech",
+      "regenerative medicine",
+      "stem cells",
+      "neurology"
+    ],
+    "category": "startup",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Soumil Nema. works on Stem Cell Therapies for Neurological Disorders. : Developing stem cell therapies aimed at treating stroke and neuropathy.. Domains: biotech, regenerative medicine, stem cells, neurology. Category: startup.",
+    "domains_normalized": [
+      "biotechnology",
+      "healthcare"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "startup",
+    "cluster_kmeans": 5
+  },
+  {
+    "name": "Anushka Punukollu",
+    "age": 17,
+    "education": "High school student in Canada",
+    "location": "India/Canada",
+    "project_name": "SucroSoil",
+    "project_description": "Repurposing sugarcane waste into hydrogels to combat soil erosion in rural India.",
+    "domains": [
+      "agriculture",
+      "sustainability",
+      "materials science",
+      "climate adaptation"
+    ],
+    "category": "startup",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Anushka Punukollu. works on SucroSoil. : Repurposing sugarcane waste into hydrogels to combat soil erosion in rural India.. Domains: agriculture, sustainability, materials science, climate adaptation. Category: startup.",
+    "domains_normalized": [
+      "agriculture",
+      "sustainability",
+      "materials science",
+      "climate adaptation"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "startup",
+    "cluster_kmeans": 5
+  },
+  {
+    "name": "Deev Mehta",
+    "age": 17,
+    "education": "High school student",
+    "location": "India",
+    "project_name": "Autonomous Farming Rover",
+    "project_description": "Developing a rover to make farming autonomous.",
+    "domains": [
+      "robotics",
+      "agritech",
+      "automation"
+    ],
+    "category": "hardware",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Deev Mehta. works on Autonomous Farming Rover. : Developing a rover to make farming autonomous.. Domains: robotics, agritech, automation. Category: hardware.",
+    "domains_normalized": [
+      "robotics",
+      "agriculture",
+      "automation"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "hardware",
+    "cluster_kmeans": 0
+  },
+  {
+    "name": "Adithya Sakaray, Steve Aldrin, and Aadhithya D",
+    "age": null,
+    "education": "",
+    "location": "India",
+    "project_name": "Recruitr AI",
+    "project_description": "Automating video interviews using AI.",
+    "domains": [
+      "AI",
+      "HR tech",
+      "automation"
+    ],
+    "category": "software",
+    "funding_type": "startup",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Adithya Sakaray, Steve Aldrin, and Aadhithya D. works on Recruitr AI. : Automating video interviews using AI.. Domains: AI, HR tech, automation. Category: software.",
+    "domains_normalized": [
+      "artificial intelligence",
+      "human resources",
+      "automation"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "software",
+    "cluster_kmeans": 6
+  },
+  {
+    "name": "Samarth K J",
+    "age": 20,
+    "education": "Civil engineering student at IIT Madras",
+    "location": "India",
+    "project_name": "Career Development Grant",
+    "project_description": "General career development support.",
+    "domains": [
+      "career development",
+      "engineering"
+    ],
+    "category": "career",
+    "funding_type": "career development",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Samarth K J. works on Career Development Grant. : General career development support.. Domains: career development, engineering. Category: career.",
+    "domains_normalized": [
+      "career development",
+      "engineering"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "career",
+    "cluster_kmeans": 1
+  },
+  {
+    "name": "Prakyath Gowda",
+    "age": 25,
+    "education": "",
+    "location": "India",
+    "project_name": "Lightweight EV Battery",
+    "project_description": "Developing a lightweight and efficient electric vehicle battery.",
+    "domains": [
+      "energy",
+      "EVs",
+      "battery technology",
+      "hardware"
+    ],
+    "category": "hardware",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Prakyath Gowda. works on Lightweight EV Battery. : Developing a lightweight and efficient electric vehicle battery.. Domains: energy, EVs, battery technology, hardware. Category: hardware.",
+    "domains_normalized": [
+      "energy",
+      "hardware"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "hardware",
+    "cluster_kmeans": 0
+  },
+  {
+    "name": "Aaron Rego",
+    "age": null,
+    "education": "",
+    "location": "India",
+    "project_name": "Rightful",
+    "project_description": "Helping Indian families recover unclaimed financial assets.",
+    "domains": [
+      "fintech",
+      "civic technology",
+      "legal tech"
+    ],
+    "category": "software",
+    "funding_type": "startup",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Aaron Rego. works on Rightful. : Helping Indian families recover unclaimed financial assets.. Domains: fintech, civic technology, legal tech. Category: software.",
+    "domains_normalized": [
+      "financial technology",
+      "civic technology",
+      "legal technology"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "software",
+    "cluster_kmeans": 6
+  },
+  {
+    "name": "Vatsal Hariramani",
+    "age": 21,
+    "education": "Engineering student",
+    "location": "India",
+    "project_name": "Affordable Neonatal Incubator",
+    "project_description": "Developing a smart and affordable neonatal incubator for remote terrain.",
+    "domains": [
+      "healthcare",
+      "medical devices",
+      "hardware"
+    ],
+    "category": "hardware",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Vatsal Hariramani. works on Affordable Neonatal Incubator. : Developing a smart and affordable neonatal incubator for remote terrain.. Domains: healthcare, medical devices, hardware. Category: hardware.",
+    "domains_normalized": [
+      "healthcare",
+      "hardware"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "hardware",
+    "cluster_kmeans": 3
+  },
+  {
+    "name": "Rushab M",
+    "age": null,
+    "education": "",
+    "location": "India",
+    "project_name": "Temperature-Regulating Jacket",
+    "project_description": "Developing a jacket that controls body temperature for outdoor workers.",
+    "domains": [
+      "hardware",
+      "wearables",
+      "labor safety"
+    ],
+    "category": "hardware",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Rushab M. works on Temperature-Regulating Jacket. : Developing a jacket that controls body temperature for outdoor workers.. Domains: hardware, wearables, labor safety. Category: hardware.",
+    "domains_normalized": [
+      "hardware",
+      "safety"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "hardware",
+    "cluster_kmeans": 3
+  },
+  {
+    "name": "Sajal Deolikar",
+    "age": null,
+    "education": "",
+    "location": "India",
+    "project_name": "Hybrid Powertrains",
+    "project_description": "Developing hybrid powertrains for commercial vehicles to improve mileage and reduce emissions.",
+    "domains": [
+      "energy",
+      "transportation",
+      "hardware"
+    ],
+    "category": "hardware",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Sajal Deolikar. works on Hybrid Powertrains. : Developing hybrid powertrains for commercial vehicles to improve mileage and reduce emissions.. Domains: energy, transportation, hardware. Category: hardware.",
+    "domains_normalized": [
+      "energy",
+      "transportation",
+      "hardware"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "hardware",
+    "cluster_kmeans": 0
+  },
+  {
+    "name": "Mihir Maroju",
+    "age": null,
+    "education": "",
+    "location": "India",
+    "project_name": "Open Blood",
+    "project_description": "Building an open-source blood donation platform connecting blood banks nationwide.",
+    "domains": [
+      "healthtech",
+      "open-source",
+      "platforms"
+    ],
+    "category": "software",
+    "funding_type": "startup",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Mihir Maroju. works on Open Blood. : Building an open-source blood donation platform connecting blood banks nationwide.. Domains: healthtech, open-source, platforms. Category: software.",
+    "domains_normalized": [
+      "healthcare",
+      "open source",
+      "platforms"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "software",
+    "cluster_kmeans": 2
+  },
+  {
+    "name": "Habel Anwar",
+    "age": 13,
+    "education": "Middle school student in Kerala",
+    "location": "India",
+    "project_name": "Physics Olympiad Preparation",
+    "project_description": "Furthering physics Olympiad preparation and advancing physics knowledge and research.",
+    "domains": [
+      "physics",
+      "education",
+      "talent development"
+    ],
+    "category": "education",
+    "funding_type": "career development",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Habel Anwar. works on Physics Olympiad Preparation. : Furthering physics Olympiad preparation and advancing physics knowledge and research.. Domains: physics, education, talent development. Category: education.",
+    "domains_normalized": [
+      "physics",
+      "education"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "education",
+    "cluster_kmeans": 4
+  },
+  {
+    "name": "Yash Darji",
+    "age": 20,
+    "education": "Engineering student",
+    "location": "India",
+    "project_name": "Experimental Rocketry Community",
+    "project_description": "Kickstarting an experimental rocketry community in Ahmedabad.",
+    "domains": [
+      "aerospace",
+      "community building",
+      "STEM"
+    ],
+    "category": "organization",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Yash Darji. works on Experimental Rocketry Community. : Kickstarting an experimental rocketry community in Ahmedabad.. Domains: aerospace, community building, STEM. Category: organization.",
+    "domains_normalized": [
+      "aerospace",
+      "community building",
+      "education"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "organization",
+    "cluster_kmeans": 0
+  },
+  {
+    "name": "Uddhav Gupta",
+    "age": 15,
+    "education": "High school student",
+    "location": "India",
+    "project_name": "Speech Therapy App",
+    "project_description": "Developing a speech therapy application for children with special needs.",
+    "domains": [
+      "healthtech",
+      "education",
+      "AI",
+      "assistive technology"
+    ],
+    "category": "software",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Uddhav Gupta. works on Speech Therapy App. : Developing a speech therapy application for children with special needs.. Domains: healthtech, education, AI, assistive technology. Category: software.",
+    "domains_normalized": [
+      "healthcare",
+      "education",
+      "artificial intelligence"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "software",
+    "cluster_kmeans": 6
+  },
+  {
+    "name": "Krupal Virani",
+    "age": 19,
+    "education": "",
+    "location": "India",
+    "project_name": "Career Development",
+    "project_description": "General career development grant.",
+    "domains": [
+      "career development"
+    ],
+    "category": "career",
+    "funding_type": "career development",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Krupal Virani. works on Career Development. : General career development grant.. Domains: career development. Category: career.",
+    "domains_normalized": [
+      "career development"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "career",
+    "cluster_kmeans": 1
+  },
+  {
+    "name": "Shwapno Rahman",
+    "age": 17,
+    "education": "",
+    "location": "India",
+    "project_name": "Low-Cost Computers",
+    "project_description": "Developing low-cost computers for people living below the poverty line.",
+    "domains": [
+      "hardware",
+      "education",
+      "digital access"
+    ],
+    "category": "hardware",
+    "funding_type": "project",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Shwapno Rahman. works on Low-Cost Computers. : Developing low-cost computers for people living below the poverty line.. Domains: hardware, education, digital access. Category: hardware.",
+    "domains_normalized": [
+      "hardware",
+      "education"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "hardware",
+    "cluster_kmeans": 2
+  },
+  {
+    "name": "Sudhir Sarnobat and Rajendra Bagwe",
+    "age": null,
+    "education": "",
+    "location": "India",
+    "project_name": "HowFrameworks",
+    "project_description": "Helping Indian SMEs unlock sustainable growth through a learning portal.",
+    "domains": [
+      "SMEs",
+      "business education",
+      "learning platforms"
+    ],
+    "category": "organization",
+    "funding_type": "startup",
+    "cohort": "EV India 13",
+    "links": [],
+    "embedding_text": "Sudhir Sarnobat and Rajendra Bagwe. works on HowFrameworks. : Helping Indian SMEs unlock sustainable growth through a learning portal.. Domains: SMEs, business education, learning platforms. Category: organization.",
+    "domains_normalized": [
+      "business",
+      "education"
+    ],
+    "location_normalized": "India",
+    "category_normalized": "organization",
+    "cluster_kmeans": 2
+  }
+]
