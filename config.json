@@ -1,0 +1,20 @@
+{
+  "scraping": {
+    "rate_limit_delay": 1.5,
+    "max_retries": 3,
+    "timeout": 30,
+    "respect_robots_txt": true,
+    "user_agent": "EV-Semantic-Map-Bot/1.0"
+  },
+  "llm": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "extraction_min_confidence": 0.3
+  },
+  "pipeline": {
+    "skip_embeddings": false,
+    "incremental_updates": true,
+    "apply_automated_labeling": true,
+    "min_confidence_threshold": 0.3
+  }
+}
