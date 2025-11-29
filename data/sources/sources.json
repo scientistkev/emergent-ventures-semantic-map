@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "EV India 13 Announcement",
+    "url": "https://marginalrevolution.com/marginalrevolution/2024/01/emergent-ventures-india-13.html",
+    "type": "marginal_revolution",
+    "enabled": true,
+    "last_scraped": null,
+    "notes": "Example Marginal Revolution blog post"
+  },
+  {
+    "name": "EV India 13 Announcement",
+    "url": "https://marginalrevolution.com/marginalrevolution/2024/01/emergent-ventures-india-13.html",
+    "type": "marginal_revolution",
+    "enabled": true,
+    "last_scraped": null,
+    "notes": "Example Marginal Revolution blog post"
+  }
+]
