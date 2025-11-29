@@ -8,13 +8,14 @@ This script shows how to use the Phase 2 scraping, extraction, and pipeline comp
 import sys
 from pathlib import Path
 
-# Add src to path
+# Add project root to path (not just src)
 project_root = Path(__file__).parent
-sys.path.insert(0, str(project_root / "src"))
+sys.path.insert(0, str(project_root))
 
-from pipeline.run import Pipeline
-from config import Config
-from scraping.orchestrator import ScraperOrchestrator
+# Now use absolute imports from src package
+from src.pipeline.run import Pipeline
+from src.config import Config
+from src.scraping.orchestrator import ScraperOrchestrator
 
 
 def example_config():
