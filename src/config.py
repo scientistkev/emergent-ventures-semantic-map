@@ -18,7 +18,6 @@ class ScrapingConfig:
     user_agent: str = "EV-Semantic-Map-Bot/1.0"
 
 
-@dataclass_json
 @dataclass
 class LLMConfig:
     """Configuration for LLM extraction and labeling."""
@@ -27,7 +26,6 @@ class LLMConfig:
     extraction_min_confidence: float = 0.3
 
 
-@dataclass_json
 @dataclass
 class PipelineConfig:
     """Configuration for pipeline processing."""
@@ -37,7 +35,6 @@ class PipelineConfig:
     min_confidence_threshold: float = 0.3
 
 
-@dataclass_json
 @dataclass
 class SourceConfig:
     """Configuration for a single data source."""
@@ -96,20 +93,20 @@ class Config:
             data = json.load(f)
             
             if 'scraping' in data:
-                self.scraping = ScrapingConfig.from_dict(data['scraping'])
+                self.scraping = ScrapingConfig(**data['scraping'])
             if 'llm' in data:
-                self.llm = LLMConfig.from_dict(data['llm'])
+                self.llm = LLMConfig(**data['llm'])
             if 'pipeline' in data:
-                self.pipeline = PipelineConfig.from_dict(data['pipeline'])
+                self.pipeline = PipelineConfig(**data['pipeline'])
     
     def save(self):
         """Save configuration to file."""
         self.config_path.parent.mkdir(parents=True, exist_ok=True)
         
         data = {
-            'scraping': self.scraping.to_dict(),
-            'llm': self.llm.to_dict(),
-            'pipeline': self.pipeline.to_dict()
+            'scraping': asdict(self.scraping),
+            'llm': asdict(self.llm),
+            'pipeline': asdict(self.pipeline)
         }
         
         with open(self.config_path, 'w') as f:
@@ -121,17 +118,17 @@ class Config:
             data = json.load(f)
             
             if isinstance(data, list):
-                self.sources = [SourceConfig.from_dict(s) for s in data]
+                self.sources = [SourceConfig(**s) for s in data]
             else:
                 # Legacy format
                 sources_list = data.get('sources', [])
-                self.sources = [SourceConfig.from_dict(s) for s in sources_list]
+                self.sources = [SourceConfig(**s) for s in sources_list]
     
     def save_sources(self):
         """Save sources registry to file."""
         self.sources_path.parent.mkdir(parents=True, exist_ok=True)
         
-        data = [s.to_dict() for s in self.sources]
+        data = [asdict(s) for s in self.sources]
         
         with open(self.sources_path, 'w') as f:
             json.dump(data, f, indent=2)
@@ -189,10 +186,10 @@ class Config:
     def to_dict(self) -> Dict[str, Any]:
         """Convert configuration to dictionary."""
         return {
-            'scraping': self.scraping.to_dict(),
-            'llm': self.llm.to_dict(),
-            'pipeline': self.pipeline.to_dict(),
-            'sources': [s.to_dict() for s in self.sources]
+            'scraping': asdict(self.scraping),
+            'llm': asdict(self.llm),
+            'pipeline': asdict(self.pipeline),
+            'sources': [asdict(s) for s in self.sources]
         }
     
     @classmethod
